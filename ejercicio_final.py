@@ -6,21 +6,24 @@ Finalmente, deberá imprimir la suma de cada fila y columna."""
 # 1. Generar una matriz cuadrada de tamaño NXN. N es un numero entero ingresado por el usuario
 n_filas = 0
 n_columnas = 0
-lista=[]
+lista=[0]
 
 n_tamaño_matriz = int(input("Introduzca el tamaño de la matriz: "))
 
 print('Filas:', n_tamaño_matriz, 'columnas:', n_tamaño_matriz)
 print(type(n_tamaño_matriz))
+print('n_filas',n_filas)
+print('n_columnas',n_columnas)
 
 print('----------------------------')
 
 # 2. Rellenar la matriz con numeros aleatorios entre 0 y 9.
 
-while n_filas < n_tamaño_matriz:
-    while n_columnas < n_tamaño_matriz:
-        lista[n_filas,n_columnas] = 2
-        print(lista[n_filas, n_columnas])
+while (n_filas < n_tamaño_matriz):
+    while (n_columnas < n_tamaño_matriz):
+        lista[n_columnas] = 1
+#        print(lista[n_filas],[n_columnas])
+        print(lista)
         n_columnas += 1
     n_filas += 1
 
