@@ -75,3 +75,9 @@ print(type(s_nombre))
 print(type(NUMEROPI))
 print(type(is_verdadero))
 print(type(is_casado))
+
+w=float("4.2")
+print('w',w)
+
+z=int(True)
+print('z',z)
